@@ -2,10 +2,6 @@ import React from 'react';
 import { 
   FaReact, 
   FaNodeJs, 
-  FaDatabase,
-  FaGithub,
-  FaLinkedin,
-  FaEnvelope
 } from 'react-icons/fa';
 import { 
   SiExpress, 
@@ -22,7 +18,6 @@ import {
   SiBabel,
   SiJest,
   SiDocker,
-  SiAmazonaws,
   SiSass,
   SiPostgresql
 } from 'react-icons/si';
@@ -44,7 +39,6 @@ const techIcons = [
   { name: 'Babel', Icon: SiBabel },
   { name: 'Jest', Icon: SiJest },
   { name: 'Docker', Icon: SiDocker },
-  { name: 'AWS', Icon: SiAmazonaws },
   { name: 'Sass', Icon: SiSass },
   { name: 'PostgreSQL', Icon: SiPostgresql }
 ];

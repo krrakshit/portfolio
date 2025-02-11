@@ -33,11 +33,10 @@ const SkillsSphere = () => {
     ]
 
     if (container) {
-      const tagCloud = TagCloud(container, texts, {
+      const tagCloud = TagCloud([container], texts, {
         radius: 300,
         maxSpeed: "fast",
         initSpeed: "fast",
-        direction: 135,
         keep: true,
       })
 
