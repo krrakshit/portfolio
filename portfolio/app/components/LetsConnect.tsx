@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
 const LetsConnect = () => {
   return (
     <div className="text-center">
-      <h2 className="text-2xl font-semibold mb-4">Let's Connect</h2>
+      <h2 className="text-2xl font-semibold mb-4">Let&apos;s Connect</h2>
       <div className="flex justify-center space-x-6">
         <a
           href="https://github.com/yourusername"
