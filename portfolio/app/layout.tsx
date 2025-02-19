@@ -3,7 +3,6 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import Navbar from "./components/Navbar"
 import type React from "react" // Added import for React
-import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -22,7 +21,6 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         <main className="container mx-auto px-4 py-8">{children}</main>
-        <Analytics/>
       </body>
     </html>
   )
