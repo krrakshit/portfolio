@@ -28,7 +28,10 @@ const slugs = [
   "postman",
   "netlify",
   "ubuntu",
-  "shadcn"
+  "shadcn",
+  "docker",
+  "kubernetes",
+  
 
 
 
