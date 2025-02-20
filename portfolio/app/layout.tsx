@@ -2,7 +2,7 @@ import "./globals.css"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import Navbar from "./components/Navbar"
-import type React from "react" // Added import for React
+import type { ReactNode } from "react" // Corrected import
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -11,11 +11,12 @@ export const metadata: Metadata = {
   description: "Personal portfolio showcasing projects and skills",
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+// Define the expected LayoutProps type
+interface LayoutProps {
+  children: ReactNode
+}
+
+export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -25,4 +26,3 @@ export default function RootLayout({
     </html>
   )
 }
-
