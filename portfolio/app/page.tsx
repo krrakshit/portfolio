@@ -25,9 +25,9 @@ const page = () => {
                
                 <FlipWordsDemo />
                 
-                <p className=" opacity-80 text-sm lg:text-xl lg:mb-2 font-medium">
+                {/* <p className=" opacity-80 text-sm lg:text-xl lg:mb-2 font-medium">
                     Contributor @<span className="text-blue-500 font-bold"> GSSoC&apos;24 , TSoC&apos;24</span> & <span className="text-blue-500 font-bold">SSoC&apos;24 </span> 
-                </p>
+                </p> */}
                 <div className="flex flex-col md:flex-row items-right mt-3 gap-1 md:gap-3">
                
             

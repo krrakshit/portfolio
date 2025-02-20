@@ -2,21 +2,20 @@ import "./globals.css"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import Navbar from "./components/Navbar"
-import type { ReactNode } from "react" // Corrected import
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Your Name - Portfolio",
+  title: "Rakshit - Portfolio",
   description: "Personal portfolio showcasing projects and skills",
 }
 
-// Define your own LayoutProps type
-interface LayoutProps {
-  children: ReactNode
-}
 
-export default function RootLayout({ children }: LayoutProps) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
       <body className={inter.className}>
