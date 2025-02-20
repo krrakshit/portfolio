@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "Personal portfolio showcasing projects and skills",
 }
 
-// Define the expected LayoutProps type
+// Define your own LayoutProps type
 interface LayoutProps {
   children: ReactNode
 }
