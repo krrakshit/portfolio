@@ -1,6 +1,4 @@
 import React from "react";
-import MyProjects from "./components/projects";
-import { FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
 import { FlipWordsDemo } from "./components/words";
 import { DockDemo } from "./components/dock";
 import TechStack from "./components/TechStack";
