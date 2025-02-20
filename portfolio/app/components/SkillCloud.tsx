@@ -1,4 +1,4 @@
-import IconCloud from "./Iconcloud";
+import IconCloud from "./ui/iconcloud";
 
 const slugs = [
   "typescript",
@@ -12,6 +12,7 @@ const slugs = [
   "prisma",
   "amazonaws",
   "postgresql",
+  "firebase",
   "nginx",
   "vercel",
   "testinglibrary",
@@ -21,18 +22,14 @@ const slugs = [
   "github",
   "gitlab",
   "visualstudiocode",
-  "framer",
+  "androidstudio",
   "figma",
+  "rust",
   "linux",
   "render",
   "postman",
   "netlify",
-  "ubuntu",
-  "shadcn",
-  "docker",
-  "kubernetes",
-  
-
+  "solidity",
 
 
 ];
