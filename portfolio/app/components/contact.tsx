@@ -15,7 +15,7 @@ const ContactMe: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        | Let's Connect |
+        | Let&apos;s Connect |
       </motion.h1>
 
       <motion.div

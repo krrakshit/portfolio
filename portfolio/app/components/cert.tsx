@@ -1,8 +1,8 @@
 "use client"
 
 import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { FaCertificate, FaCalendarAlt, FaBuilding, FaMedal, FaLink } from 'react-icons/fa';
+import { motion, } from 'framer-motion';
+import { FaCertificate, FaCalendarAlt, FaBuilding, FaMedal } from 'react-icons/fa';
 import Image from 'next/image';
 
 interface Certification {
