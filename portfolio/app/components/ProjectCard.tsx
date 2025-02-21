@@ -19,7 +19,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
   return (
     <motion.div
       className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer"
-      whileHover={{ scale: 1.05 }}
+      whileHover={{ scale: 0.85 }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       onClick={() => window.open(project.link, "_blank")}
@@ -32,8 +32,8 @@ const ProjectCard = ({ project }: { project: Project }) => {
           </div>
         )}
       </div>
-      <div className="p-4">
-        <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+      <div className="p-4 bg-gray-500 h-36">
+        <h3 className="text-xl font-semibold mb-2 text-white">{project.title}</h3>
         <div className="flex flex-wrap gap-2">
           {project.technologies.map((tech) => (
             <span key={tech} className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-sm">
