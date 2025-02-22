@@ -7,7 +7,7 @@ const projects = [
     description: "Get your projects on the go",
     image: "/Screenshot 2025-01-24 001353.png",
     technologies: ["Next.js", "TypeScript", "GEMINI","Tailwind CSS"],
-    link: "https://pro-helper.vercel.app",
+    link: "https://pro-helper.rexit.live",
   },
   {
     id: 2,
@@ -16,8 +16,16 @@ const projects = [
     
     image: "/Screenshot 2025-02-19 131628.png",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS","PostgreSQL","PRISMA"],
-    link: "https://echo-words.vercel.app",
+    link: "https://echo-words.rexit.live",
   },
+  {
+    id: 2,
+    title: "Stratum",
+    description: "Explore System Design Concepts",
+    image: "Screenshot 2025-02-22 120437.png",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS","Notion",],
+    link: "https://stratum.rexit.live",
+  }
   // Add more projects as needed
 ]
 
