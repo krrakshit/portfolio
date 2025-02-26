@@ -19,12 +19,19 @@ const projects = [
     link: "https://echo-words.rexit.live",
   },
   {
-    id: 2,
+    id: 3,
     title: "Stratum",
     description: "Explore System Design Concepts",
-    image: "Screenshot 2025-02-22 120437.png",
+    image: "/Screenshot 2025-02-22 120437.png",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS","Notion",],
     link: "https://stratum.rexit.live",
+  }, {
+    id: 4,
+    title: "Writeflow",
+    description: "AI based SEO content Generator",
+    image: "/Screenshot 2025-02-26 102700.png",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS","Gemini",],
+    link: "https://writeflow.rexit.live",
   }
   // Add more projects as needed
 ]
