@@ -33,6 +33,14 @@ const projects = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS","Gemini",],
     link: "https://writeflow.rexit.live",
   }
+  , {
+    id: 5,
+    title: "Chat-App",
+    description: "Realtime chat application",
+    image: "/chat.png",
+    technologies: ["React-JS", "Express", "Tailwind CSS","MongoDb","Socket IO","Daisy UI","Express"],
+    link: "https://chat.rexit.live",
+  }
   // Add more projects as needed
 ]
 
