@@ -2,6 +2,7 @@ import TechStack from "./components/TechStack"
 import LetsConnect from "./components/LetsConnect"
 import SplashCursor from "@/components/SplashCursor"
 import Particles from "@/components/Particles"
+import Certificates from "./components/Certificates"
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <SplashCursor/>
         <h1 className="text-4xl font-bold text-center">Welcome to My Portfolio</h1>
         <TechStack />
+        <Certificates />
         <LetsConnect />
       </div>
     </div>
