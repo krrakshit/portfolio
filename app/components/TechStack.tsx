@@ -1,7 +1,11 @@
 import React from 'react';
 import { 
   FaReact, 
-  FaNodeJs, 
+  FaNodeJs,
+  FaAws,
+  FaGithub,
+  FaLinux,
+  FaJava
 } from 'react-icons/fa';
 import { 
   SiExpress, 
@@ -14,13 +18,27 @@ import {
   SiCss3,
   SiRedux,
   SiGit,
-  SiWebpack,
-  SiBabel,
-  SiJest,
   SiDocker,
   SiSass,
-  SiPostgresql
+  SiPostgresql,
+  SiKubernetes,
+  SiGraphql,
+  SiRedis,
+  SiNginx,
+  SiApachekafka,
+  SiThreedotjs,
+  SiPrisma,
+  SiApollographql,
+  SiBootstrap,
+  SiShadcnui,
+  SiDiscord,
+  SiMaterialdesign,
+  SiOpenapiinitiative,
+  SiPrometheus,
+  SiSlack,
+  SiGrafana
 } from 'react-icons/si';
+import { TbApi } from 'react-icons/tb';
 
 const techIcons = [
   { name: 'React', Icon: FaReact },
@@ -35,12 +53,30 @@ const techIcons = [
   { name: 'Redux', Icon: SiRedux },
   { name: 'Git', Icon: SiGit },
   { name: 'Tailwind CSS', Icon: SiTailwindcss },
-  { name: 'Webpack', Icon: SiWebpack },
-  { name: 'Babel', Icon: SiBabel },
-  { name: 'Jest', Icon: SiJest },
   { name: 'Docker', Icon: SiDocker },
   { name: 'Sass', Icon: SiSass },
-  { name: 'PostgreSQL', Icon: SiPostgresql }
+  { name: 'PostgreSQL', Icon: SiPostgresql },
+  { name: 'AWS', Icon: FaAws },
+  { name: 'GitHub', Icon: FaGithub },
+  { name: 'Linux', Icon: FaLinux },
+  { name: 'Java', Icon: FaJava },
+  { name: 'Kubernetes', Icon: SiKubernetes },
+  { name: 'GraphQL', Icon: SiGraphql },
+  { name: 'Redis', Icon: SiRedis },
+  { name: 'Nginx', Icon: SiNginx },
+  { name: 'Apache Kafka', Icon: SiApachekafka },
+  { name: 'Three.js', Icon: SiThreedotjs },
+  { name: 'Prisma', Icon: SiPrisma },
+  { name: 'Apollo GraphQL', Icon: SiApollographql },
+  { name: 'Bootstrap', Icon: SiBootstrap },
+  { name: 'Material UI', Icon: SiMaterialdesign },
+  { name: 'shadcn/ui', Icon: SiShadcnui },
+  { name: 'Discord', Icon: SiDiscord },
+  { name: 'REST API', Icon: TbApi },
+  { name: 'OpenAPI', Icon: SiOpenapiinitiative },
+  { name: 'Prometheus', Icon: SiPrometheus },
+  { name: 'Slack', Icon: SiSlack },
+  { name: 'Grafana', Icon: SiGrafana }
 ];
 
 const TechStack: React.FC = () => {
