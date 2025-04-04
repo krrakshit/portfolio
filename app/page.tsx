@@ -9,7 +9,7 @@ export default function Home() {
     <div className="relative min-h-screen">
       <div className="fixed inset-0 -z-10">
         <Particles
-          particleColors={['#ffffff', '#ffffff']}
+          particleColors={['#ededed', '#ededed']}
           particleCount={700}
           particleSpread={10}
           speed={1}
@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className="relative z-10 space-y-12">
         <SplashCursor/>
-        <h1 className="text-4xl font-bold text-center">Welcome to My Portfolio</h1>
+        <h1 className="text-4xl font-bold text-center text-foreground">Welcome to My Portfolio</h1>
         <TechStack />
         <Certificates />
         <LetsConnect />

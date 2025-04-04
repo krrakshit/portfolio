@@ -21,12 +21,12 @@ const certificates: Certificate[] = [
 export default function Certificates() {
   return (
     <section className="py-12 px-4">
-      <h2 className="text-3xl font-bold text-center mb-8">Certificates</h2>
+      <h2 className="text-3xl font-bold text-center mb-8 text-foreground">Certificates</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {certificates.map((cert, index) => (
           <div 
             key={index}
-            className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:bg-white/20 transition-all duration-300"
+            className="bg-foreground/10 backdrop-blur-sm rounded-lg p-6 hover:bg-foreground/20 transition-all duration-300"
           >
             <div className="relative h-48 mb-4">
               <Image
@@ -36,9 +36,9 @@ export default function Certificates() {
                 className="object-contain"
               />
             </div>
-            <h3 className="text-xl font-semibold mb-2">{cert.title}</h3>
-            <p className="text-gray-300 mb-2">{cert.issuer}</p>
-            <p className="text-gray-400 mb-4">{cert.date}</p>
+            <h3 className="text-xl font-semibold mb-2 text-foreground">{cert.title}</h3>
+            <p className="text-foreground/70 mb-2">{cert.issuer}</p>
+            <p className="text-foreground/50 mb-4">{cert.date}</p>
             {cert.link && (
               <a
                 href={cert.link}

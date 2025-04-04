@@ -82,12 +82,12 @@ const techIcons = [
 const TechStack: React.FC = () => {
   return (
     <div className="text-center">
-      <h2 className="text-2xl font-semibold mb-4">My Tech Stack</h2>
+      <h2 className="text-2xl font-semibold mb-4 text-foreground">My Tech Stack</h2>
       <div className="flex flex-wrap justify-center gap-8">
         {techIcons.map((tech) => (
           <div key={tech.name} className="flex flex-col items-center">
-            <tech.Icon size={50} />
-            <span className="mt-2">{tech.name}</span>
+            <tech.Icon size={50} className="text-foreground" />
+            <span className="mt-2 text-foreground">{tech.name}</span>
           </div>
         ))}
       </div>

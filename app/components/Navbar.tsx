@@ -3,7 +3,7 @@ import ShinyText from "@/components/ShinyText"
 
 const Navbar = () => {
   return (
-    <nav className="text-white p-4">
+    <nav className="text-foreground p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-xl font-bold">
           <ShinyText text="RAKSHIT" disabled={false} speed={3}/>
