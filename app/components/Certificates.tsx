@@ -15,6 +15,13 @@ const certificates: Certificate[] = [
     date: "2025",
     imageUrl: "/node.png",
     link: "https://www.hackerrank.com/certificates/e0b6b93c4ed2"
+  },
+  {
+    title: "Java(Basic) Certificate",
+    issuer: "HackerRank",
+    date: "2024",
+    imageUrl: "/java.png",
+    link: "https://www.hackerrank.com/certificates/5590e1f69fdd"
   }
 ];
 
