@@ -22,7 +22,28 @@ const certificates: Certificate[] = [
     date: "2024",
     imageUrl: "/java.png",
     link: "https://www.hackerrank.com/certificates/5590e1f69fdd"
-  }
+  },
+  {
+    title: "Exploring Data Transformation with Google Cloud",
+    issuer: "Google",
+    date: "2024",
+    imageUrl: "/g1.png",
+    link: "https://www.cloudskillsboost.google/public_profiles/fe30b842-3953-4117-9c4d-2632f4c14e4c/badges/13086078?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+  },
+  {
+    title: "Introduction to Generative AI",
+    issuer: "Google",
+    date: "2024",
+    imageUrl: "/g2.png",
+    link: "https://www.cloudskillsboost.google/public_profiles/fe30b842-3953-4117-9c4d-2632f4c14e4c/badges/13085919?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+  },
+  {
+    title: "Introduction to Responsible AI",
+    issuer: "Google",
+    date: "2024",
+    imageUrl: "/g3.png",
+    link: "https://www.cloudskillsboost.google/public_profiles/fe30b842-3953-4117-9c4d-2632f4c14e4c/badges/13086105?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+  },
 ];
 
 export default function Certificates() {
