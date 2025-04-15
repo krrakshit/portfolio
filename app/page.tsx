@@ -4,6 +4,7 @@ import React from "react";
 import { GoogleGeminiEffect } from "./components/google-gemini-effect";
 import TechStack from "./components/TechStack";
 import LetsConnect from "./components/LetsConnect";
+import Footer from "./components/Footer";
 import SplashCursor from "@/components/SplashCursor";
 import Particles from "@/components/Particles";
 import Certificates from "./components/Certificates";
@@ -60,6 +61,7 @@ export default function Home() {
         </div>
         
         <LetsConnect />
+        <Footer/>
       </div>
     </div>
   );
