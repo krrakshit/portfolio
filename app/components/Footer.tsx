@@ -2,6 +2,7 @@
 'use client';
 
 import { useState } from 'react';
+import Terminal from './Terminal';
 
 export default function Footer() {
   const [formData, setFormData] = useState({
@@ -36,6 +37,8 @@ export default function Footer() {
   };
 
   return (
+    <>
+   
     <footer className="p-6 bg-gray-900 text-white">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-xl font-bold mb-2">Send me a message</h2>
@@ -77,5 +80,7 @@ export default function Footer() {
         {status && <p className="mt-2">{status}</p>}
       </div>
     </footer>
+    <Terminal/>
+    </>
   );
 }

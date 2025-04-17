@@ -9,6 +9,7 @@ import SplashCursor from "@/components/SplashCursor";
 import Particles from "@/components/Particles";
 import Certificates from "./components/Certificates";
 
+
 export default function Home() {
   const ref = React.useRef(null);
   const { scrollYProgress } = useScroll({
@@ -59,6 +60,7 @@ export default function Home() {
             />
           </div>
         </div>
+
         
         <LetsConnect />
         <Footer/>
