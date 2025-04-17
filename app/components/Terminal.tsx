@@ -46,9 +46,9 @@ export default function Terminal() {
     setInput('');
   };
 
-  useEffect(() => {
+  const handleTerminalClick = () => {
     inputRef.current?.focus();
-  }, [history]);
+  };
 
   useEffect(() => {
     if (terminalRef.current) {
@@ -57,7 +57,10 @@ export default function Terminal() {
   }, [history]);
 
   return (
-    <div className="bg-black text-green-400 font-mono p-4 rounded-lg shadow-lg h-full flex flex-col">
+    <div 
+      className="bg-black text-green-400 font-mono p-4 rounded-lg shadow-lg h-full flex flex-col"
+      onClick={handleTerminalClick}
+    >
       <div className="flex items-center mb-2">
         <div className="flex space-x-2">
           <div className="w-3 h-3 rounded-full bg-red-500"></div>
