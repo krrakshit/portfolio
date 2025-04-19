@@ -1,10 +1,12 @@
 import TechStack from "./components/TechStack";
 import LetsConnect from "./components/LetsConnect";
 import Footer from "./components/Footer";
-import SplashCursor from "@/components/SplashCursor";
-import Particles from "@/components/Particles";
+import SplashCursor from "@/app/components/SplashCursor";
+import Particles from "@/app/components/Particles";
 import Certificates from "./components/Certificates";
 import GoogleScrollEffect from "./components/GoogleScrollEffect";
+import GitHubActivity from "./components/Githubcalendar";
+// import LeetCodeCalendar from "./components/Leetcodecalendar";
 
 export default function Home() {
   return (
@@ -28,6 +30,8 @@ export default function Home() {
           Welcome to My Portfolio
         </h1>
         <TechStack />
+        <GitHubActivity/>
+        {/* <LeetCodeCalendar/> */}
         <Certificates />
         <div className="py-10">
           <GoogleScrollEffect />

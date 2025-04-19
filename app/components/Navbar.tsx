@@ -1,5 +1,5 @@
 import Link from "next/link"
-import ShinyText from "@/components/ShinyText"
+import ShinyText from "@/app/components/ShinyText"
 
 const Navbar = () => {
   return (
