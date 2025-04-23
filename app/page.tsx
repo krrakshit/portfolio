@@ -1,7 +1,6 @@
 import TechStack from "./components/TechStack";
 import LetsConnect from "./components/LetsConnect";
 import Footer from "./components/Footer";
-import SplashCursor from "@/app/components/SplashCursor";
 import Particles from "@/app/components/Particles";
 import Certificates from "./components/Certificates";
 import GoogleScrollEffect from "./components/GoogleScrollEffect";
@@ -25,7 +24,6 @@ export default function Home() {
       </div>
 
       <div className="relative z-10 space-y-12">
-        <SplashCursor />
         <h1 className="text-4xl font-bold text-center text-foreground">
           Welcome to My Portfolio
         </h1>
