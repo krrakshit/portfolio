@@ -5,11 +5,10 @@ import Particles from "@/app/components/Particles";
 import Certificates from "./components/Certificates";
 import GoogleScrollEffect from "./components/GoogleScrollEffect";
 import GitHubActivity from "./components/Githubcalendar";
-// import LeetCodeCalendar from "./components/Leetcodecalendar";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen">
+    <div className="relative">
       <div className="fixed inset-0 -z-10">
         <Particles
           particleColors={['#ededed', '#ededed']}
@@ -26,15 +25,14 @@ export default function Home() {
       <div className="relative z-10 space-y-12">
         <h1 className="text-4xl font-bold text-center text-foreground">
           Welcome to My Portfolio
-        </h1>
+        </h1> 
         <TechStack />
+        <LetsConnect />
         <GitHubActivity/>
-        {/* <LeetCodeCalendar/> */}
         <Certificates />
         <div className="py-10">
           <GoogleScrollEffect />
         </div>
-        <LetsConnect />
         <Footer />
       </div>
     </div>

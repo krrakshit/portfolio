@@ -8,7 +8,7 @@ const Navbar = () => {
         <Link href="/" className="text-xl font-bold">
           <ShinyText text="RAKSHIT" disabled={false} speed={3}/>
         </Link>
-        <ul className="flex space-x-8">
+        <ul className="flex space-x-2">
           <li className="px-2">
             <Link href="/" className="hover:text-gray-300">
               <ShinyText text="Home" disabled={false} speed={3}  />

@@ -16,10 +16,10 @@ email - Reveals my email address for contact`,
   whoami: "Rakshit - Full Stack Developer 🚀",
   about: "I'm a B.Tech student passionate about web dev, system design, and real-time apps.",
   education: "B.Tech in CSIT, graduating in 2027.",
-  socials: "GitHub: github.com/yourhandle\nLinkedIn: linkedin.com/in/yourprofile",
+  socials: "GitHub: https://github.com/krrakshit  \nLinkedIn: https://www.linkedin.com/in/rex7t/",
   skills: "React, Next.js, TypeScript, Node.js, Prisma, PostgreSQL, Redis, Docker, and more...",
   experience: "Still exploring, but building exciting projects along the way!",
-  email: "youremail@example.com",
+  email: "rkrkr365@gmail.com",
 };
 
 export default function Terminal() {
@@ -83,7 +83,7 @@ export default function Terminal() {
           type="text"
           className="bg-black text-green-400 outline-none flex-1"
           value={input}
-          onChange={(e) => setInput(e.target.value)}
+          onChange={(e) => setInput(e.target.value.toLowerCase())}
           autoComplete="off"
           placeholder="Type a command..."
         />

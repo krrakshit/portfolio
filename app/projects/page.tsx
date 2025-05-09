@@ -40,6 +40,22 @@ const projects = [
     image: "/chat.png",
     technologies: ["React-JS", "Express", "Tailwind CSS","MongoDb","Socket IO","Daisy UI","Express"],
     link: "https://chat.rexit.live",
+  },
+  {
+    id: 6,
+    title: "WebRTC-screen-share",
+    description: "Realtime ScreenSharing Application",
+    image: "/webrtc.png",
+    technologies: ["NEXT JS","Tailwind CSS","Gemini AI","ShadCN"],
+    link: "https://webrtc.rexit.live",
+  },
+  {
+    id: 7,
+    title: "Code-converter",
+    description: "Convert code on the go!",
+    image: "/codec.png",
+    technologies: ["NEXT JS","Tailwind CSS","Gemini AI","Accertinity UI"],
+    link: "https://codec.rexit.live",
   }
   // Add more projects as needed
 ]
