@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 import { Highlight } from "./hero-highlight";
 import { IconCloudDemo } from "./SkillCloud";
 import { useState, useEffect } from "react";
+import LetsConnect from "./LetsConnect";
 
 // Separate component for time display
 const TimeDisplay = () => {
@@ -44,7 +45,7 @@ export function Hero() {
       {/* Left side - Scrollable Icons */}
       <div className="w-full md:w-1/2 h-[50vh] md:h-screen overflow-y-auto">
         <div className="sticky top-0">
-          <IconCloudDemo />
+          <IconCloudDemo/>
         </div>
       </div>
 
@@ -96,6 +97,7 @@ export function Hero() {
           
           {/* Time zone */}
           <TimeDisplay />
+          <LetsConnect />
         </motion.div>
       </div>
     </div>

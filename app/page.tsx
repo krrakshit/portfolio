@@ -1,6 +1,4 @@
-// import TechStack from "./components/TechStack";
 import { Hero } from "./components/Hero";
-import LetsConnect from "./components/LetsConnect";
 import Footer from "./components/Footer";
 import Particles from "@/app/components/Particles";
 import Certificates from "./components/Certificates";
@@ -24,9 +22,7 @@ export default function Home() {
       </div>
 
       <div className="relative z-10 space-y-12"> 
-        {/* <TechStack /> */}
         <Hero/>
-        <LetsConnect />
         <GitHubActivity/>
         <Certificates />
         <div className="py-10">
