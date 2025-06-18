@@ -1,4 +1,5 @@
-import TechStack from "./components/TechStack";
+// import TechStack from "./components/TechStack";
+import { Hero } from "./components/Hero";
 import LetsConnect from "./components/LetsConnect";
 import Footer from "./components/Footer";
 import Particles from "@/app/components/Particles";
@@ -22,11 +23,9 @@ export default function Home() {
         />
       </div>
 
-      <div className="relative z-10 space-y-12">
-        <h1 className="text-4xl font-bold text-center text-foreground">
-          Welcome to My Portfolio
-        </h1> 
-        <TechStack />
+      <div className="relative z-10 space-y-12"> 
+        {/* <TechStack /> */}
+        <Hero/>
         <LetsConnect />
         <GitHubActivity/>
         <Certificates />

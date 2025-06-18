@@ -20,11 +20,6 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="px-2">
-            <Link href="/skills" className="hover:text-gray-300">
-              <ShinyText text="Skills" disabled={false} speed={3}  />
-            </Link>
-          </li>
-          <li className="px-2">
             <Link href="/about" className="hover:text-gray-300">
               <ShinyText text="About" disabled={false} speed={3}  />
             </Link>
