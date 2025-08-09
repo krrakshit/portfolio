@@ -1,4 +1,5 @@
 import ProjectCard from "../components/ProjectCard"
+export const dynamic = "force-dynamic"
 
 const projects = [
   {

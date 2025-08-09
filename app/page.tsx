@@ -4,6 +4,7 @@ import Particles from "@/app/components/Particles";
 import Certificates from "./components/Certificates";
 import GoogleScrollEffect from "./components/GoogleScrollEffect";
 import GitHubActivity from "./components/Githubcalendar";
+export const dynamic = "force-dynamic"
 
 export default function Home() {
   return (

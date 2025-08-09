@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+export const dynamic = "force-dynamic"
 export default function About() {
   return (
     <div className="max-w-3xl mx-auto">
