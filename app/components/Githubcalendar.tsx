@@ -41,7 +41,7 @@ export default function GitHubActivity() {
     }, 2000); // Assuming 2 seconds is enough for the calendar to load
     
     return () => clearTimeout(timer);
-  }, []);
+  },);
 
   return (
     <div className="flex flex-col items-center justify-center w-full py-8">

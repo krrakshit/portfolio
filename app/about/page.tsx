@@ -1,14 +1,14 @@
 import Image from "next/image"
-export const dynamic = "force-dynamic"
+export const dynamic = "force-static"
 export default function About() {
   return (
     <div className="max-w-3xl mx-auto">
       <h1 className="text-4xl font-bold text-center mb-8">About Me</h1>
       <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
-        <Image src="/pfp.jpg" alt="Your Name" width={300} height={300} className="rounded-full" />
+        <Image src="/pfp.jpg" alt="Kumar Rakshit" width={300} height={300} className="rounded-full" />
         <div>
           <p className="mb-4">
-            Hello! I&apos;m Rakshit, a passionate web developer with expertise in building modern, responsive, and
+            Hello! I&apos;m Kumar Rakshit, a passionate web developer with expertise in building modern, responsive, and
             user-friendly applications. With a strong foundation in both front-end and back-end technologies, I strive
             to create seamless digital experiences that solve real-world problems.
           </p>
