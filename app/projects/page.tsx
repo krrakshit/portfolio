@@ -71,6 +71,17 @@ const projects = [
     type : "single page",
     gitlink : "https://github.com/krrakshit/CODE-CONVERTER"
 
+  },
+  {
+    id: 8,
+    title: "LMS",
+    description: "Course selling platform",
+    image: "/lms.png",
+    technologies: ["React JS","Tailwind CSS","MONGO DB","Express" , "Multer"],
+    link: "https://lms.rexit.live",
+    type : "full stack",
+    gitlink : "https://github.com/krrakshit/LMS"
+
   }
 ]
 
