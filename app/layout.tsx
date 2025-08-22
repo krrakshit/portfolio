@@ -1,7 +1,7 @@
 import "./globals.css"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import Navbar from "./components/Navbar"
+import Navbar from "@/components/Navbar"
 import type React from "react" // Added import for React
 import { Analytics } from "@vercel/analytics/next"
 import { SpeedInsights } from "@vercel/speed-insights/next"

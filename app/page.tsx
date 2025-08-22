@@ -1,10 +1,11 @@
-import { Hero } from "./components/Hero";
-import Footer from "./components/Footer";
-import Particles from "@/app/components/Particles";
-import Certificates from "./components/Certificates";
-import GoogleScrollEffect from "./components/GoogleScrollEffect";
-import GitHubActivity from "./components/Githubcalendar";
-import { TracingBeamDemo } from "./components/Experience";
+import { Hero } from "@/components/Hero";
+import { TracingBeamDemo } from "@/components/Experience";
+import Footer from "@/components/Footer";
+import Particles from "@/components/Particles";
+import Certificates from "@/components/Certificates";
+import GoogleScrollEffect from "@/components/GoogleScrollEffect";
+import GitHubActivity from "@/components/Githubcalendar";
+
 export const dynamic = "force-dynamic"
 
 export default function Home() {
