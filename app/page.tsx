@@ -4,6 +4,7 @@ import Particles from "@/app/components/Particles";
 import Certificates from "./components/Certificates";
 import GoogleScrollEffect from "./components/GoogleScrollEffect";
 import GitHubActivity from "./components/Githubcalendar";
+import { TracingBeamDemo } from "./components/Experience";
 export const dynamic = "force-dynamic"
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       <div className="relative z-10 space-y-12"> 
         <Hero/>
         <GitHubActivity/>
+          <TracingBeamDemo />
         <Certificates />
         <div className="py-10">
           <GoogleScrollEffect />
