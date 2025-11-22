@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaEnvelope , FaInstagram} from "react-icons/fa"
 
 const LetsConnect = () => {
   return (
@@ -20,6 +20,14 @@ const LetsConnect = () => {
           className="text-3xl text-foreground hover:text-foreground/70"
         >
           <FaLinkedin />
+        </a>
+        <a
+          href="https://instagram.com/rakshit.live"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-3xl text-foreground hover:text-foreground/70"
+        >
+          <FaInstagram />
         </a>
         <a 
           href="mailto:rkrkr365@gmail.com" 
