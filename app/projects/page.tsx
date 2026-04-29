@@ -1,5 +1,21 @@
 import ProjectCard from "@/components/ProjectCard"
-export const dynamic = "force-dynamic"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description:
+    "Browse Rakshit's full stack development projects — including real-time chat apps, exchange platforms, AI tools, and more. Built with Next.js, React, TypeScript, and modern technologies.",
+  alternates: {
+    canonical: "/projects",
+  },
+  openGraph: {
+    title: "Projects | Rakshit Portfolio",
+    description:
+      "Explore a curated collection of full stack projects by Rakshit, from AI-powered tools to real-time applications.",
+    url: "https://rakshit.online/projects",
+    type: "website",
+  },
+}
 
 const projects = [
   {
@@ -9,7 +25,7 @@ const projects = [
     type : "single page",
     image: "/Screenshot 2025-01-24 001353.png",
     technologies: ["Next.js", "TypeScript", "GEMINI","Tailwind CSS"],
-    link: "https://pro-helper.rexit.live",
+    link: "https://pro-helper.rakshit.online",
     gitlink : "https://github.com/krrakshit/proo-helper"
   },
   {
@@ -19,7 +35,7 @@ const projects = [
     type : "single page",
     image: "/cqc.png",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS","Next-Auth","Gemini",],
-    link: "https://cqc.rexit.live",
+    link: "https://cqc.rakshit.online",
     gitlink : "https://github.com/krrakshit/chaotic_curse"
   },
   {
@@ -29,7 +45,7 @@ const projects = [
     image: "/exchange.png",
     technologies: ["Express","TypeScript","TimeScaleDB","WebSockets","Redis","Next"],
     type : "full stack",
-    link: "https://exchange.rexit.live",
+    link: "https://exchange.rakshit.online",
     gitlink : "https://github.com/krrakshit/iiiiiiii"
   }, {
     id: 4,
@@ -38,7 +54,7 @@ const projects = [
     type : "single page",
     image: "/Screenshot 2025-02-26 102700.png",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS","Gemini",],
-    link: "https://writeflow.rexit.live",
+    link: "https://writeflow.rakshit.online",
     gitlink : "https://github.com/krrakshit/WriteFlow"
   }
   , {
@@ -48,7 +64,7 @@ const projects = [
     image: "/chat.png",
     type : "full stack",
     technologies: ["React-JS", "Express", "Tailwind CSS","MongoDb","Socket IO","Daisy UI","Express"],
-    link: "https://chat.rexit.live",
+    link: "https://chat.rakshit.online",
     gitlink : "https://github.com/krrakshit/CHAT_APP"
   },
   {
@@ -58,7 +74,7 @@ const projects = [
     image: "/noti.png",
     type : "full stack",
     technologies: ["NEXT JS","Tailwind CSS","WebSocket","Redis","Prisma","Postgres"],
-    link: "https://notify.rexit.live",
+    link: "https://notify.rakshit.online",
     gitlink : "https://github.com/krrakshit/awsome_pacific"
   },
   {
@@ -67,7 +83,7 @@ const projects = [
     description: "Convert code on the go!",
     image: "/codec.png",
     technologies: ["NEXT JS","Tailwind CSS","Gemini AI","Accertinity UI"],
-    link: "https://codec.rexit.live",
+    link: "https://codec.rakshit.online",
     type : "single page",
     gitlink : "https://github.com/krrakshit/CODE-CONVERTER"
 
@@ -78,7 +94,7 @@ const projects = [
     description: "Course selling platform",
     image: "/lms.png",
     technologies: ["React JS","Tailwind CSS","MONGO DB","Express" , "Multer"],
-    link: "https://lms.rexit.live",
+    link: "https://lms.rakshit.online",
     type : "full stack",
     gitlink : "https://github.com/krrakshit/LMS"
 
@@ -97,4 +113,3 @@ export default function Projects() {
     </div>
   )
 }
-

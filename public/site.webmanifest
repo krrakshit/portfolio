@@ -1,0 +1,16 @@
+{
+  "name": "Rakshit - Full Stack Developer Portfolio",
+  "short_name": "Rakshit",
+  "description": "Portfolio of Rakshit, a Full Stack Developer specializing in Next.js, TypeScript, and modern web technologies.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

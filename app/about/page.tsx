@@ -1,11 +1,28 @@
 import Image from "next/image"
-export const dynamic = "force-dynamic"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "Learn more about Rakshit — a passionate full stack developer with expertise in modern web technologies including Next.js, React, TypeScript, and Node.js.",
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    title: "About Rakshit | Full Stack Developer",
+    description:
+      "Learn about Rakshit's journey as a full stack developer, skills, and passion for building web applications.",
+    url: "https://rakshit.online/about",
+    type: "profile",
+  },
+}
+
 export default function About() {
   return (
     <div className="max-w-3xl mx-auto">
       <h1 className="text-4xl font-bold text-center mb-8">About Me</h1>
       <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
-        <Image src="/pfp.jpg" alt="Your Name" width={300} height={300} className="rounded-full" />
+        <Image src="/pfp.jpg" alt="Rakshit — Full Stack Developer" width={300} height={300} className="rounded-full" priority />
         <div>
           <p className="mb-4">
             Hello! I&apos;m Rakshit, a passionate web developer with expertise in building modern, responsive, and
@@ -28,4 +45,3 @@ export default function About() {
     </div>
   )
 }
-
